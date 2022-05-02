@@ -1,0 +1,74 @@
+@font-face {
+	font-family: Arial;
+	src: url(/assets/fonts/arial/Arial-Black.woff);
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Georgia;
+	src: url(/assets/fonts/georgia/Georgia.woff);
+	font-weight: normal;
+	font-style: normal;
+}
+body{
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+	flex-direction: column;
+	width: 1280px;
+}
+.start-screen  {
+	background: url(/assets/images/start-screen-gradient-background.png);
+	width: 1280px;
+    height: 908px;
+	margin: auto;
+}
+header, .not-only {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 40px;
+}
+
+header nav ul li {
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+	display: inline;
+	margin: 35px;	
+}
+.companyName {
+	padding: 4px;
+}
+header .companyName h1 {
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 110%;
+	
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.06em;
+	color: #F1CDB3;
+}
+header .companyName p {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 15px;
+	
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.1em;
+
+	color: #FFFFFF;
+	}
+	.start-screen-puppy {
+		width: 698px;
+		height: 728px;
+		margin-bottom: 5;
+	}
